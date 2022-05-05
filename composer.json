@@ -1,0 +1,31 @@
+{
+  "name": "block-cat/extended-bbcode",
+  "description": "Allow posts to be formatted with BBCode",
+  "keywords": [
+    "formatting"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.2.1"
+  },
+  "authors": [{
+    "name": "BlockCat"
+  }],
+  "autoload": {
+    "psr-4": {
+      "BlockCat\\ExtendedBBCode\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "BkC Extended BBCode",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-bold",
+        "backgroundColor": "#083",
+        "color": "#fff"
+      }
+    }
+  }
+}
